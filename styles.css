@@ -4,6 +4,7 @@ body, html{
     align-items: center;
     height: 100%;
     margin: 0;
+    gap: 10em;
     
 }
 
@@ -12,8 +13,20 @@ body, html{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-   
+    width: 960px;
 
+
+}
+
+
+button {
+    font-size:60px;
+    padding: 20px 50px;
+
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
 }
 
